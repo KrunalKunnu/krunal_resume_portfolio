@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Krunal Pujara - Mobile Team Lead & Lead Android Engineer with 9.5+ years of experience building scalable, high-performance Android applications using Kotlin and Java.">
+  <meta name="keywords" content="Android Developer, Mobile Team Lead, Kotlin, Java, Krunal Pujara, Portfolio, CI/CD, Firebase">
+  <meta name="author" content="Krunal Pujara">
+
+
+  <script>
+    // Force clear old service workers to resolve caching issues for existing users
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://krunalpujara.dev/">
+  <meta property="og:title" content="Krunal Pujara | Mobile Team Lead">
+  <meta property="og:description" content="9.5+ Years experience leading high-performance Android engineering teams.">
+  <meta property="og:image" content="https://digvijaysinh2204.github.io/portfolio/icons/Icon-192.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://krunalpujara.dev/">
+  <meta property="twitter:title" content="Krunal Pujara | Mobile Team Lead">
+  <meta property="twitter:description" content="9.5+ Years experience leading high-performance Android engineering teams.">
+  <meta property="twitter:image" content="https://digvijaysinh2204.github.io/portfolio/icons/Icon-192.png">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Krunal Pujara">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Krunal Pujara | Mobile Team Lead</title>
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="theme-color" content="#030712">
+  <style>
+    body {
+      background-color: #030712;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+    #loading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease-out;
+    }
+    .loader {
+      width: 60px;
+      height: 60px;
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      border-top-color: #8B5CF6;
+      animation: spin 1s linear infinite;
+      box-shadow: 0 0 15px rgba(139, 92, 246, 0.1);
+    }
+    .loading-text {
+      margin-top: 25px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading-container">
+    <div class="loader"></div>
+    <div class="loading-text">Loading Portfolio</div>
+  </div>
+  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Remove the loader once the Flutter app has rendered the first frame
+    window.addEventListener('flutter-first-frame', function() {
+      var loader = document.getElementById('loading-container');
+      if (loader) {
+        loader.style.opacity = '0';
+        setTimeout(function() {
+          loader.remove();
+        }, 500);
+      }
+    });
+
+    // Fallback in case flutter-first-frame never fires
+    setTimeout(function() {
+      var loader = document.getElementById('loading-container');
+      if (loader && document.body.contains(loader)) {
+        loader.remove();
+      }
+    }, 10000);
+  </script>
+</body>
+</html>
