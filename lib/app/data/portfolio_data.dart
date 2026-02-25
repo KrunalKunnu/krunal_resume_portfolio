@@ -216,7 +216,7 @@ class PortfolioData {
     ProjectItem(
       title: "Vidyalaya - All-In-One School Management App (Android)",
       description:
-          "A multi-role school management mobile application that allows students, teachers, and administrators to manage attendance, exams, fees, communication, and role-based dashboards. Supports real-time updates, secure transactions, and customizable modules for different schools through white-label deployments.",
+          "Multi-role school management app for students, teachers & admins. Manages attendance, exams, fees and role-based dashboards with white-label school deployments.",
       techStack:
           "Native Android (Kotlin) · Firebase (Push Notifications & Crashlytics) · REST APIs · Multiple Payment Gateway Integrations (6–7 providers)",
       androidUrl:
@@ -227,7 +227,7 @@ class PortfolioData {
     ProjectItem(
       title: "FriendWe (Android)",
       description:
-          "A native Android dating application that enables users to meet and connect with new people nearby, discover potential matches, chat in real-time, and interact through personalized profiles, geolocation features, and secure in-app subscriptions.",
+          "Native Android dating app to meet and connect with people nearby. Features real-time chat, geolocation matching, personalized profiles and secure in-app subscriptions.",
       techStack:
           "Native Android (Kotlin) · Firebase (Push Notifications, Realtime Chat, Crashlytics) · REST APIs · Stripe · In-App Subscriptions · AWS Face Recognition · Google Maps",
       androidUrl:
@@ -238,7 +238,7 @@ class PortfolioData {
     ProjectItem(
       title: "Beauty INKstitute – Continuous Learning & Skill Development App (Android)",
       description:
-          "A native Android application designed as a continuous education platform for permanent makeup and tattooing, offering bite-sized tutorials, progress tracking, gamified learning, and a community for artists.",
+          "Continuous education platform for permanent makeup and tattooing artists. Offers bite-sized tutorials, progress tracking, gamified learning and an artist community.",
       techStack:
           "Native Android (Kotlin) · MVVM Architecture · REST APIs · Firebase (Push Notifications, Crashlytics) · Video Integration like Instagram reels",
       androidUrl:
@@ -249,7 +249,7 @@ class PortfolioData {
     ProjectItem(
       title: "Hello Queen – Pre-Owned Formal Wear Marketplace (Flutter)",
       description:
-          "A Flutter-based mobile marketplace app for pre-owned formal wear, allowing users to buy and sell products seamlessly, with integrated payments, user profiles, and order tracking.",
+          "Flutter marketplace for buying and selling pre-owned formal wear. Features integrated payments, user profiles and real-time order tracking.",
       techStack:
           "Flutter (GetX Architecture) · REST APIs · Firebase (Push Notifications, Realtime Database) · Stripe · Social Sharing",
       androidUrl:
@@ -262,7 +262,7 @@ class PortfolioData {
     ProjectItem(
       title: "Hobi – Expressive Art Therapy & Wellness App (Flutter)",
       description:
-          "A Flutter mobile app focused on expressive art therapy and wellness, enabling users to engage in creative activities, track mental wellness, and interact with supportive communities.",
+          "Flutter wellness app focused on expressive art therapy. Users engage in creative activities, track mental wellness and interact with supportive communities.",
       techStack:
           "Flutter · Native Android (Kotlin) · MVVM Architecture · REST APIs · Firebase (Push Notifications, Crashlytics) · Play Store & App Store Deployment",
       androidUrl:
@@ -275,7 +275,7 @@ class PortfolioData {
     ProjectItem(
       title: "Adani Emcare",
       description:
-          "Enterprise occupational health and safety application built for Adani Group, providing comprehensive employee health monitoring and digital medical records.",
+          "Enterprise occupational health app for Adani Group. Provides employee health monitoring and digital medical records.",
       techStack: "Native Android · Firebase · REST APIs",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.occucare.adani&hl=en_IN",
@@ -283,39 +283,39 @@ class PortfolioData {
     ProjectItem(
       title: "Luke - Patient App",
       description:
-          "Telemedicine platform allowing patients to book consultations (in-person, home, or virtual). Features direct doctor payments and flexible scheduling.",
-      techStack: "Native Android · Maps · Telemedicine",
+          "Flutter telemedicine platform to book in-person, home or virtual consultations. Features direct doctor payments and flexible scheduling.",
+      techStack: "Flutter · Maps · Telemedicine",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.luke.patient",
     ),
     ProjectItem(
       title: "Kyklaminon",
       description:
-          "Event booking and social platform for a multiuse space. Features event discovery, party reservations, real-time notifications, and social invites.",
-      techStack: "Native Android · Booking · Firebase",
+          "Flutter event booking platform for a multiuse social space. Features event discovery, reservations and real-time notifications.",
+      techStack: "Flutter · Booking · Firebase",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.kyklaminon",
     ),
     ProjectItem(
       title: "MemoriPlay",
       description:
-          "A memory and fun-focused mobile application delivering engaging games and experiences for users of all ages.",
-      techStack: "Native Android · Gaming · Firebase",
+          "Flutter memory and trivia game app delivering engaging experiences for users of all ages.",
+      techStack: "Flutter · Gaming · Firebase",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.memoriplayapp",
     ),
     ProjectItem(
       title: "Forage Fox",
       description:
-          "A foraging and nature discovery app connecting outdoor enthusiasts with nature-based community features.",
-      techStack: "Native Android · Maps · Community",
+          "Flutter foraging and nature discovery app that connects outdoor enthusiasts with nature-based community features.",
+      techStack: "Flutter · Maps · Community",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.forage.fox",
     ),
     ProjectItem(
       title: "KSTA News",
       description:
-          "A regional news platform delivering the latest local and international news stories to users in real time.",
+          "Flutter regional news platform delivering the latest local and international stories in real-time.",
       techStack: "Native Android · News Feed · Firebase",
       androidUrl:
           "https://play.google.com/store/apps/details?id=de.dumont.ksta.android&hl=en_IN",
@@ -323,16 +323,16 @@ class PortfolioData {
     ProjectItem(
       title: "Stride",
       description:
-          "A fitness and activity tracking app that helps users set goals, track progress, and stay motivated.",
-      techStack: "Native Android · Health · Firebase",
+          "Flutter fitness and activity tracking app. Helps users set goals, track progress and stay motivated.",
+      techStack: "Flutter · Health · Firebase",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.stride.app",
     ),
     ProjectItem(
       title: "ReApp – The Real Estate App",
       description:
-          "Property listing, advanced search, detailed views, and user inquiry management for buying and renting real estate.",
-      techStack: "Native Android · Google Maps · Firebase",
+          "Flutter real estate app with property listings, advanced search and user inquiry management for buying and renting.",
+      techStack: "Flutter · Google Maps · Firebase",
       androidUrl:
           "https://play.google.com/store/apps/details?id=com.reapp.reapp",
     ),
